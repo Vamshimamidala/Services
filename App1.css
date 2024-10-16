@@ -1,0 +1,252 @@
+.custom-carousel {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .carousel-slide {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .carousel-slide.active {
+    opacity: 1;
+  }
+  
+  .custom-carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+.icon img{
+ width: 80%;
+ border-radius: 10px;
+ height:10vh;
+  }
+  .offer1 {
+    background-color: #1778da;
+    padding: 50px 0;
+  }
+  
+  .offer-content {
+    font-size: 1.5rem;
+    color: #333;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .offer-content p span {
+    font-weight: bold;
+    color: #ff6347;  
+  }
+  
+  .offer-image {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .addcat-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .name-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .name-title {
+    font-size: 2.5rem;
+    color: #333;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .addcat-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+   
+  .subform {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .subname {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mb-3 input {
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .mb-3 input:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 8px rgba(128, 189, 255, 0.5);
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  @media (max-width: 768px) {
+    .subform {
+      padding: 20px;
+    }
+  
+    form {
+      padding: 20px;
+    }
+  
+    .subname {
+      font-size: 2rem;
+    }
+  
+    .btn-danger {
+      width: 100%;
+    }
+  }
+  .subcat-section {
+    padding: 40px 0;
+    background-color: #f7f7f7;
+  }
+  
+  .service-section {
+    padding: 40px 0;
+  }
+  
+  .service-list {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-item {
+    border-bottom: 1px solid #d11111;
+  }
+  
+  .service-item:last-child {
+    border-bottom: none;
+  }
+  
+  .service-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .service-address {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .service-form {
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .back{
+    background-image: url("./Images/wall.webp");
+    background-repeat: no-repeat;
+    height: 15vh;
+  }
+  .service-item h6{
+    font-size: medium;
+  }
+  .service-item p{
+    font-size: small;
+  }
+  .service-item h6 span{
+    color: red;
+  }
+  .service-item p span{
+    font-size: large;
+    color: blue;
+  }
+  .about{
+    padding: 15px 10px;
+  }
+  .about h3{
+    color: red;
+    font-size: large;
+  }
+  .about p{
+    font-size: medium;
+  } 
+  .about p span{
+    color: blue;
+    font-size: large;
+  }
+.bookserices{
+  background-image: url("./Images/wall.webp") ;
+  background-size: cover;
+  height: 15vh;
+  text-align: center;
+}
+ 
